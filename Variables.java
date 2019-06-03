@@ -10,6 +10,7 @@ public class Variables{
         System.out.println(myLetter);
         boolean myBool = true;
         System.out.println(myBool);
+        System.out.println("Hello "+name+" who is "+number+" years old.");
         
     }
 }
