@@ -8,6 +8,13 @@ public class IfCondition{
       }  else {
         System.out.println("You are too old for the job, We are sorry!.");
       }
+
+      int marks =75;
+      
+          String result = (marks < 80) ? "Failed." : "Passed.";
+          System.out.println(result);
+      
+
     }
   }
   
