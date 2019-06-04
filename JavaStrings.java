@@ -21,6 +21,7 @@ public class JavaStrings{
         //Add strings(Concatenation)
         String address = "I live in Paradise";
         System.out.println(name+" "+"and"+" "+address);
+        System.out.println(name.concat(" ").concat(address));
 
 
 
