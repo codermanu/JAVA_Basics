@@ -5,6 +5,12 @@ public class ForLoop{
            System.out.println(i);
         }
         
+        //For each loop
+        //print each item in a list
+        String[] Starkfamily ={"Ned Stark","Catelyn Stark","Robb Stark","John Snow","Sansa Stark","Arya Stark","Brandon Stark","Rickon Stark"};
+        for (String x : Starkfamily){
+            System.out.println(x);
+        }
         
     }
 }
