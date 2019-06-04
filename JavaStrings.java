@@ -11,6 +11,10 @@ public class JavaStrings{
         //Use lowercase method to convert the text to lowercase
         System.out.println(name.toLowerCase());
         
+        //Locate where Nadeesha occurs
+        System.out.println(name.indexOf("Nadeesha"));
+        System.out.println(name.indexOf("My"));
+
 
 
     }
