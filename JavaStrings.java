@@ -13,7 +13,15 @@ public class JavaStrings{
         
         //Locate where Nadeesha occurs
         System.out.println(name.indexOf("Nadeesha"));
-        System.out.println(name.indexOf("My"));
+        //Locate where My occurs
+        System.out.println(name.indexOf("My"));  
+        /*Java counts positions from zero.
+        0 is the first position in a string, 1 is the second, 2 is the third ...*/
+        
+        //Add strings(Concatenation)
+        String address = "I live in Paradise";
+        System.out.println(name+" "+"and"+" "+address);
+
 
 
 
