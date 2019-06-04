@@ -38,6 +38,8 @@ switch (month) {
   case 12:
     System.out.println("December");
     break;
+  default:
+    System.out.println("There is no such month");
 
 
 }
