@@ -5,5 +5,13 @@ public class JavaStrings{
         //Prints the length of the given text
         System.out.println("The length of the text given is "+name.length());
 
+        //Use Uppercase method to convert the text to uppercase
+        System.out.println(name.toUpperCase());
+
+        //Use lowercase method to convert the text to lowercase
+        System.out.println(name.toLowerCase());
+        
+
+
     }
 }
