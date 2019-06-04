@@ -11,5 +11,8 @@ public class MathClass{
 
         //Print the absolute value
         System.out.println(Math.abs(-69));
+
+        //Print a random number between 0(inclusive) and 1(exclusive)
+        System.out.println(Math.random());
     }
 }
