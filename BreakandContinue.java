@@ -6,5 +6,12 @@ public class BreakandContinue{
             }
             System.out.println(i);
         }
+        for (int x=0; x<10; x++){
+            if (x==5){
+                continue; //skip 5 abnd print the rest
+            }
+            System.out.println(x);
+        }
+        
     }
 }
