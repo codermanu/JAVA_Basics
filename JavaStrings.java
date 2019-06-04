@@ -23,6 +23,12 @@ public class JavaStrings{
         System.out.println(name+" "+"and"+" "+address);
         System.out.println(name.concat(" ").concat(address));
 
+        //Using special characters
+        String team = "We are team \"Stark\"";
+        System.out.println(team);
+        
+
+
 
 
 
