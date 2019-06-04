@@ -8,5 +8,8 @@ public class MathClass{
 
         //Print the Square root of a number
         System.out.println(Math.sqrt(1024));
+
+        //Print the absolute value
+        System.out.println(Math.abs(-69));
     }
 }
