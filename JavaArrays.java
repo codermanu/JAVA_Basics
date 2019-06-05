@@ -13,5 +13,14 @@ public class JavaArrays{
 
         //Print the length of the array
         System.out.println(friends.length);
+
+        //Print the elements in the array through a for loop
+        for (int i=0; i<friends.length; i++){
+            System.out.println(friends[i]);
+        }
+        //Print the elements in the array through a for each loop
+        for (String i : friends){
+            System.out.println(i);
+        }
     }
 }
