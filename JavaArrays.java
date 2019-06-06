@@ -22,5 +22,17 @@ public class JavaArrays{
         for (String i : friends){
             System.out.println(i);
         }
+
+        //Multidimensional Arrays
+        int[][] age = {{23,24,25,34},{33,27,29}};
+        int x = age[1][0];
+        System.out.println(x);
+        //print the elements in the multidimensional array
+        for (int a = 0; a < age.length; ++a) {
+            for(int b = 0; b < age[a].length; ++b) {
+               System.out.println(age[a][b]);
+            }
+         }
+
     }
 }
