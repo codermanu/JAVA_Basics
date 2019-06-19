@@ -5,5 +5,7 @@ public class JavaMethods {
 
     public static void main(String[] args) {
         myMethod();
+        myMethod();
+        myMethod();
     }
 }
